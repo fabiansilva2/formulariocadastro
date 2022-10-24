@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Fomulario</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="mb-3" id="titulo">
+            <h3>Formulario de Cadastro de Beneficiário</h3>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome Titular</label>
+            <input type="text" class="form-control" id="nome_titular" placeholder="Digite seu nome">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Beneficiário</label>
+            <input type="text" class="form-control" id="nome_beneficiário" placeholder="Digite o nome do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Certificado do Beneficiário</label>
+            <input type="text" class="form-control" id="certificado_beneficiário" placeholder="Digite o Certificado do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefone Celular</label>
+            <input type="tel" class="form-control" id="telefone_celular" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Telefone Residencial</label>
+            <input type="tel" class="form-control" id="telefone_residencial" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefone Comercial</label>
+            <input type="tel" class="form-control" id="telefone_comercial" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email Corporativo</label>
+            <input type="email" class="form-control" id="email_corporativo" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email Pessoal</label>
+            <input type="email" class="form-control" id="email_pessoal" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Estipulante Principal</label>
+            <input type="text" class="form-control" id="estipulante_principal" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Estipulante Sub Principal</label>
+            <input type="text" class="form-control" id="estipulante_sub_principal" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Estipulante Sub Segmento</label>
+            <input type="text" class="form-control" id="estipulante_sub_segmento" placeholder="Digite o Telefone Celular">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nomenclatura Beneficiário</label>
+            <input type="text" class="form-control" id="nomenclatura_beneficiário" placeholder="Digite a Nomenclatura do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Sexo Beneficiário</label>
+            <input type="text" class="form-control" id="sexo_beneficiário" placeholder="Digite o Sexo do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Titularidade Beneficiário</label>
+            <input type="text" class="form-control" id="titularidade_beneficiário" placeholder="Digite a Titularidade do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Cidade Beneficiário</label>
+            <input type="text" class="form-control" id="cidade_beneficiário" placeholder="Digite do Cidade do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">UF Beneficiário</label>
+            <input type="text" class="form-control" id="uf_beneficiário" placeholder="Digite o Estado do Beneficiário">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Tipo Rede</label>
+            <input type="text" class="form-control" id="tipo_rede" placeholder="Digite o Tipo de Rede">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Tipo Rede Plus</label>
+            <input type="text" class="form-control" id="tipo_rede_plus" placeholder="Digite o Tipo de Rede Plus">
+        </div>
+
+        <div class="d-grid gap-2 col-1 mx-auto">
+            <button id="botaoSalvar" type="button" class="btn btn-primary">Salvar</button>
+        </div>
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
